@@ -42,19 +42,25 @@ OK AQUI VIENE EL TRUCO, este paro lo haran cada vez que quieran cambiar la confi
 
 14)retire su tarjeta SD de su Rpi y vuelva a conectarla a su computadora
 
-15)abra el archivo config.txt que se encuentra en el SD card que retiro del Rpi, elimine todo lo que esté arriba de la última sección y reemplácelo con el archivo config.txt original completo que copió anteriormente (paso 2). Reemplacé todo por encima de esto:
+15)abra el archivo config.txt que se encuentra en el SD card que retiro del Rpi, elimine todo lo que esté arriba de la última sección y reemplácelo con el archivo config.txt original completo que copió anteriormente (paso 2). 
+Reemplacé todo por encima de esto:
 
 If you would like to enable USB booting on your Pi, uncomment the following line.
-
 Boot from microsd card with it, then reboot.
-
 Don't forget to comment this back out after using, especially if you plan to use
-
 sdcard with multiple machines!
+
+
 
 16)Expulse la tarjeta SD y vuelva a colocarla en su Raspberry Pi y enciéndala
 
 17)La pantalla debería funcionar junto con el tacto.
+
+
+
+
+
+
 
 --- Bueno aqui les dejo otro LCDs que talves apliquen al suyo ---
 
